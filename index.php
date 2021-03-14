@@ -82,8 +82,11 @@
     if($aWin > $bWin){
         echo"THE WINNER IS PLAYER A<br>"; 
     }
-    else{
+    elseif($aWin > $bWin){
         echo"THE WINNER IS PLAYER B<br>"; 
+    }
+    else{
+        echo"THERE IS NO WINNER.<br>"; 
     }
     echo"<br>"; 
 ?>
